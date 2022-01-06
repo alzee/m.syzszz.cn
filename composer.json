@@ -25,6 +25,7 @@
         "drupal/facets": "^2.0",
         "drupal/inline_entity_form": "1.x-dev@dev",
         "drupal/search_api": "^1.21",
+        "drupal/webform": "^6.1",
         "drupal/yunke_qrcode": "^1.0"
     },
     "conflict": {
