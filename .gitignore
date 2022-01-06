@@ -1,2 +1,13 @@
 vendor/
-web/core/
+web/*
+!web/themes
+!web/help/
+!web/changelog/
+!web/sites/
+web/sites/*
+!web/sites/default/
+web/sites/default/*
+!web/sites/default/files/
+web/sites/default/files/*
+!web/sites/default/files/themes/
+!web/sites/default/files/logo.png
