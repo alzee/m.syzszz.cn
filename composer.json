@@ -27,7 +27,8 @@
         "drupal/inline_entity_form": "1.x-dev@dev",
         "drupal/search_api": "^1.21",
         "drupal/webform": "^6.1",
-        "drupal/yunke_qrcode": "^1.0"
+        "drupal/yunke_qrcode": "^1.0",
+        "drush/drush": "^10.6"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -100,7 +101,6 @@
         }
     },
     "require-dev": {
-        "drupal/devel": "^4.1",
-        "drush/drush": "^10.6"
+        "drupal/devel": "^4.1"
     }
 }
