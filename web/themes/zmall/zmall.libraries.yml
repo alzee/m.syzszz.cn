@@ -1,0 +1,19 @@
+global-css:
+  version: VERSION
+  css:
+    theme:
+      css/zmall.css: {}
+
+global-js:
+  version: VERSION
+  js:
+    js/jquery-1.11.2.min.js: {}
+
+swiper:
+  version: VERSION
+  css:
+    theme:
+      css/swiper.min.css: {}
+  js:
+    js/swiper.min.js: {}
+    js/initSwiper.js: {}

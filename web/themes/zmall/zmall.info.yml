@@ -1,0 +1,46 @@
+name: zmall
+type: theme
+base theme: false
+core_version_requirement: ^8 | ^9
+version: VERSION
+libraries:
+  - lixin/global-css
+  - lixin/global-js
+libraries-override:
+  core/drupal: false
+  core/backbone: false
+  core/drupalSettings: false
+  core/drupal.active-link: false
+  core/drupal.ajax: false
+  core/drupal.announce: false
+  core/drupal.form: false
+  core/drupal.debounce: false
+  node/drupal.node.preview: false
+  core/underscore: false
+  core/domready: false
+  core/drupal.batch: false
+  core/jquery: false
+  core/jquery.once: false
+  core/jquery.joyride: false
+  core/jquery.cookie: false
+  toolbar/toolbar: false
+  toolbar/toolbar.escapeAdmin: false
+  tour/tour: false
+  history/mark-as-read: false
+  big_pipe/big_pipe: false
+regions:
+  header: '页眉'
+  nav: '导航'
+  breadcrumb: '导航路径'
+  banner: '条幅'
+  slider1: '首页-轮播图1'
+  prod: '首页-产品中心'
+  cate: '产品中心-类别'
+  contact: '产品中心-联系我们'
+  about: '首页-关于力芯'
+  content: '主要内容'
+  news: '首页-新闻动态'
+  equip: '首页-厂房设备'
+  links: '链接'
+  footer: '页脚'
+  float: '悬浮按钮'
