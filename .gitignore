@@ -1,5 +1,6 @@
 vendor/
 web/*
+web/themes/contrib/
 !web/themes
 !web/help/
 !web/changelog/
