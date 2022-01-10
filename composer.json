@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/admin_toolbar": "^3.0",
         "drupal/commerce": "^2.28",
         "drupal/commerce_alipay": "2.0.0-beta1",
         "drupal/commerce_wechat": "^1.2",
