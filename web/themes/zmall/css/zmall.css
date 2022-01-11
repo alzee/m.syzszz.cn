@@ -80,6 +80,9 @@ a{
   color: #198754 !important;
   font-weight: bold;
 }
+#prod .border-success{
+  border: .5px solid #8cc3a9!important
+}
 footer{
   font-size: 12px;
 }
@@ -126,4 +129,16 @@ footer ul li{
 #edit-user-picture-wrapper,
 #edit-contact{
     display: none;
+}
+.btn-outline-success{
+  color: #198754 !important;
+  border-color: #198754;
+}
+.btn-outline-success:hover{
+  border-color: #198754;
+  background-color: #198754;
+  color: #fff !important;
+}
+.cart.cart-form th{
+    width: 220px;
 }
