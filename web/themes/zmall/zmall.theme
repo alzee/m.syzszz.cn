@@ -15,3 +15,18 @@ function zmall_page_attachments_alter(&$page) {
     );
     $page['#attached']['html_head'][] = [$viewport, 'viewport'];
 }
+
+function hook_form_user_register_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+
+  // Modification for the form with the given form ID goes here. For example, if
+  // FORM_ID is "user_register_form" this code would run only on the user
+  // registration form.
+  // Add a checkbox to registration form about agreeing to terms of use.
+      // dump($form);
+}
+
+function hook_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+    if ($form_id == "user_register_form") {
+        // dump($form);
+    }
+}

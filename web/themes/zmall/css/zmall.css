@@ -123,3 +123,7 @@ footer ul li{
   border-color: #198754;
   background-color: #198754
 }
+#edit-user-picture-wrapper,
+#edit-contact{
+    display: none;
+}
