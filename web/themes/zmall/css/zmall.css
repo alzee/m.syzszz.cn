@@ -103,7 +103,8 @@ footer ul li{
   display: none;
 }
 #user-register-form input,
-#user-login-form input{
+#user-login-form input,
+#prod_info input{
   display: block;
   width: 100%;
   padding: .375rem .75rem;
@@ -141,4 +142,11 @@ footer ul li{
 }
 .cart.cart-form th{
     width: 220px;
+}
+#prod_info input.button--add-to-cart{
+  margin-top: 16px;
+  border-color: #198754;
+  background-color: #198754;
+  color: #fff;
+  width: 230px;
 }

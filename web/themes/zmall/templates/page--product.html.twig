@@ -52,12 +52,16 @@
 
 
   <main role="main" class="container my-5">
-    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
-
-    <div class="layout-content">
-      {{ page.content }}
-    </div>{# /.layout-content #}
-
+  <div class="row">
+    <img class="col-3" src="/{{directory}}/img/prod01.jpg">
+    <div class="col">
+        <h5>镀锌管 Q195-Q235 6分*2.5</h5>
+        <p>镀锌管 Q195-Q235 6分*2.5</p>
+        <div class="layout-content" id="prod_info">
+          {{ page.content }}
+        </div>{# /.layout-content #}
+    </div>
+  </div>
   </main>
 
   {% if page.footer %}
