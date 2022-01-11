@@ -1,0 +1,55 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a block.
+ *
+ * Available variables:
+ * - plugin_id: The ID of the block implementation.
+ * - label: The configured label of the block if visible.
+ * - configuration: A list of the block's configuration values.
+ *   - label: The configured label for the block.
+ *   - label_display: The display settings for the label.
+ *   - provider: The module or other provider that provided this block plugin.
+ *   - Block plugin specific settings will also be stored here.
+ * - content: The content of this block.
+ * - attributes: array of HTML attributes populated by modules, intended to
+ *   be added to the main container tag of this template.
+ *   - id: A valid HTML ID and guaranteed unique.
+ * - title_attributes: Same as attributes, except applied to the main title
+ *   tag that appears in the template.
+ * - title_prefix: Additional output populated by modules, intended to be
+ *   displayed in front of the main title tag that appears in the template.
+ * - title_suffix: Additional output populated by modules, intended to be
+ *   displayed after the main title tag that appears in the template.
+ *
+ * @see template_preprocess_block()
+ *
+ * @ingroup themeable
+ */
+#}
+<div class="col-auto ms-5" {{ attributes }}>
+{#
+  {% block content %}
+    {{ content }}
+  {% endblock %}
+#}
+<form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8" class="d-flex">
+<div class="js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+<label for="edit-keys" class="visually-hidden">搜索</label>
+<input data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="60" maxlength="128" class="border-danger form-search form-control py-3" placeholder="牌号 / 品种 / 规格 / 产地 / 仓库 / 店铺名称">
+<ul class="position-absolute list-inline d-flex" id="search_suggest">
+<li class="me-1"><a href="">三级抗震螺纹钢</a></li>
+<li class="me-1"><a href="">普板</a></li>
+<li class="me-1"><a href="">高线</a></li>
+<li class="me-1"><a href="">低合金板</a></li>
+<li class="me-1"><a href="">低合金板</a></li>
+<li class="me-1"><a href="">普卷</a></li>
+<li class="me-1"><a href="">普卷</a></li>
+</ul>
+</div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions">
+<input data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="搜索" class="button js-form-submit form-submit btn btn-danger px-4 py-3">
+</div>
+<button type="button" class="col-auto btn btn-outline-danger mx-5"><i class="fas fa-shopping-cart"></i> 购物车</button>
+</form>
+</div>

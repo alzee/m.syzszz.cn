@@ -9,6 +9,7 @@ global-js:
   version: VERSION
   js:
     js/bootstrap.bundle.min.js: {}
+    js/fontawesome.min.js: {}
 
 swiper:
   version: VERSION
