@@ -3,6 +3,7 @@ node_modules/
 web/*
 web/themes/contrib/
 !web/themes
+!web/stat
 !web/help/
 !web/changelog/
 !web/sites/
