@@ -1,0 +1,30 @@
+chartjs:
+  Utils
+
+zmall:
+  home page:
+    - news
+    - content
+  products page:
+    - facets
+    - style
+    - content
+  search result:
+    - style
+    - products and articles
+  admin theme:
+  bigs:
+    - content
+
+zszz:
+  - theme
+  - content
+
+app:
+
+wechat:
+
+
+
+
+# vim:ft=yaml
