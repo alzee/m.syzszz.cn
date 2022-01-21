@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f9f21c26db97b6bb0f581610444c820d",
+    "content-hash": "fc134c08ec030e1cb5388e217e9308fb",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2572,6 +2572,66 @@
                 "source": "https://github.com/drupal/core-recommended/tree/9.3.3"
             },
             "time": "2022-01-19T00:13:54+00:00"
+        },
+        {
+            "name": "drupal/csv_importer",
+            "version": "1.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/csv_importer.git",
+                "reference": "8.x-1.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/csv_importer-8.x-1.12.zip",
+                "reference": "8.x-1.12",
+                "shasum": "4f0c46e3d40f57a65663ab8dace166278b896357"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.12",
+                    "datestamp": "1635013304",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Drupal\\csv_importer\\": "./src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Drupal\\Tests\\csv_importer\\": "./tests/src"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Lasha Badashvili",
+                    "homepage": "https://www.drupal.org/user/3382242",
+                    "email": "lashabp@gmail.com"
+                }
+            ],
+            "description": "CSV Importer.",
+            "homepage": "https://www.drupal.org/project/csv_importer",
+            "keywords": [
+                "csv",
+                "drupal",
+                "import"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/csv_importer"
+            }
         },
         {
             "name": "drupal/entity",
