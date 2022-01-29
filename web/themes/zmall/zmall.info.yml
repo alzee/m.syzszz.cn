@@ -1,48 +1,28 @@
 name: zmall
 type: theme
-base theme: false
+base theme: bartik
 core_version_requirement: ^8 | ^9
 version: VERSION
 libraries:
   - zmall/global-css
   - zmall/global-js
-libraries-override:
-  #core/drupal: false
-  #core/backbone: false
-  #core/drupalSettings: false
-  #core/drupal.active-link: false
-  #core/drupal.ajax: false
-  #core/drupal.announce: false
-  #core/drupal.form: false
-  #core/drupal.debounce: false
-  #node/drupal.node.preview: false
-  #core/underscore: false
-  #core/domready: false
-  #core/drupal.batch: false
-  #core/jquery: false
-  #core/jquery.once: false
-  #core/jquery.joyride: false
-  #core/jquery.cookie: false
-  #toolbar/toolbar: false
-  #toolbar/toolbar.escapeAdmin: false
-  #tour/tour: false
-  #history/mark-as-read: false
-  #big_pipe/big_pipe: false
 regions:
-  header: '页眉'
-  logo: 'logo'
-  search: '搜索框'
-  nav: '导航'
-  breadcrumb: '导航路径'
-  category: '商品分类'
-  login: '登录'
-  announcement: '公告'
-  banner_home: '条幅1'
-  slider_home: '首页-轮播图1'
-  stores: '店铺推荐'
-  prod_home: '首页商品'
-  news: '资讯'
-  chart: '图表'
-  prod_recommended: '商品推荐'
-  footer: '页脚'
-  float: '悬浮按钮'
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: Highlighted
+  featured_top: 'Featured top'
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  featured_bottom_first: 'Featured bottom first'
+  featured_bottom_second: 'Featured bottom second'
+  featured_bottom_third: 'Featured bottom third'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_fourth: 'Footer fourth'
+  footer_fifth: 'Footer fifth'
