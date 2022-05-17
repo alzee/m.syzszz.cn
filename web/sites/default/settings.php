@@ -780,3 +780,6 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_dMXoXCIQh-mqG1jNRqgw16_YHV9SKnTvDEi7pkZCwMOF6SqNdP8bUZf9HuiYnGzU9EJIYI0WGQ/sync';
+$settings['trusted_host_patterns'] = [
+  'm.syzszz\.cn$',
+];
