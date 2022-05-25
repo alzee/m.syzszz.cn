@@ -30,6 +30,7 @@
         "drupal/login_redirect_per_role": "^1.8",
         "drupal/realistic_dummy_content": "^3.1",
         "drupal/search_api": "^1.21",
+        "drupal/views_data_export": "^1.1",
         "drupal/webform": "^6.1",
         "drupal/yunke_qrcode": "^1.0",
         "drush/drush": "^10.6"
