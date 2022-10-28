@@ -96,7 +96,7 @@ footer ul li{
 #user-register-form,
 #user-login-form{
   margin: 50px auto;
-  width: 400px;
+  max-width: 400px;
 }
 #user-register-form .description,
 #user-login-form .description{
@@ -149,4 +149,13 @@ footer ul li{
   background-color: #198754;
   color: #fff;
   width: 230px;
+}
+
+@media screen and (max-width: 37.5em) {
+  .tabs ul.primary li a{
+    padding: 0 10px;
+  }
+  #header{
+    display: none;
+  }
 }
