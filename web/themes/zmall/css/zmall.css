@@ -97,6 +97,7 @@ footer ul li{
 #user-login-form{
   margin: 50px auto;
   max-width: 400px;
+  padding-bottom: 30px;
 }
 #user-register-form .description,
 #user-login-form .description{
